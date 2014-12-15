@@ -1,3 +1,9 @@
+import FPS from 'js/fps';
+import Particles from 'js/particles';
+import Controller from 'js/controller';
+
+import $ from 'jquery';
+
 /* requestAnimationFrame shim */
 if (window.requestAnimationFrame == null) {
     window.requestAnimationFrame =
